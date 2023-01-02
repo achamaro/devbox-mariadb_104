@@ -1,0 +1,14 @@
+{
+  "packages": [
+    "mariadb_104"
+  ],
+  "shell": {
+    "init_hook": [
+      "source devbox.d/set-env.sh",
+      "source devbox.d/mariadb/init.sh"
+    ]
+  },
+  "nixpkgs": {
+    "commit": "52e3e80afff4b16ccb7c52e9f0f5220552f03d04"
+  }
+}

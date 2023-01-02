@@ -1,0 +1,6 @@
+set-env.sh
+
+mariadb/data
+mariadb/*.log
+mariadb/*.sock
+mariadb/*.pid
