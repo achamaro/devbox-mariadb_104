@@ -1,7 +1,6 @@
 #! /bin/bash
 # Installs the database if one doesn't exist, and then starts the mysql daemon. 
 set -eux
-alias mysql='mysql -u root'
 
 if [ ! -d "$MYSQL_DATADIR" ]; then
 # Install the Database
